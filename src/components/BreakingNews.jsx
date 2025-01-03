@@ -70,7 +70,7 @@ const BreakingNews = () => {
       <Slider {...settings}>
         <div className="md:grid-cols-3 lg:grid-cols-3 grid-rows-1 gap-5 rounded-lg shadow-xl">
           <div className="flex items-center gap-2 rounded-lg shadow-sm p-4 overflow-hidden w-92 h-92">
-            <img src="https://via.placeholder.com/800x600" alt="Posts News" className="w-20 h-20 rounded-lg transition-transform duration-300 ease-in-out hover:scale-110 object-cover" />
+            <img src="https://via.placeholder.com/800x600" alt="Posts News" className="w-20 h-20 rounded-lg transition-transform duration-300 ease-in-out hover:scale-110 object-cover cursor-pointer" />
             <div className="text-[10px]">
               <p className="text-gray-400 italic">
                 {" "}
@@ -86,7 +86,7 @@ const BreakingNews = () => {
         </div>
         <div className="md:grid-cols-3 lg:grid-cols-3 grid-rows-1 gap-5 rounded-lg shadow-xl">
           <div className="flex items-center gap-2 rounded-lg shadow-md p-4 overflow-hidden w-92 h-92">
-            <img src="https://via.placeholder.com/800x600" alt="Posts News" className="w-20 h-20 rounded-lg transition-transform duration-300 ease-in-out hover:scale-110 object-cover" />
+            <img src="https://via.placeholder.com/800x600" alt="Posts News" className="w-20 h-20 rounded-lg transition-transform duration-300 ease-in-out hover:scale-110 object-cover cursor-pointer" />
             <div className="text-[10px]">
               <p className="text-gray-400 italic">
                 {" "}
@@ -102,7 +102,7 @@ const BreakingNews = () => {
         </div>
         <div className="md:grid-cols-3 lg:grid-cols-3 grid-rows-1 gap-5 rounded-lg shadow-xl">
           <div className="flex items-center gap-2 rounded-lg shadow-sm p-4 overflow-hidden w-92 h-92">
-            <img src="https://via.placeholder.com/800x600" alt="Posts News" className="w-20 h-20 rounded-lg transition-transform duration-300 ease-in-out hover:scale-110 object-cover" />
+            <img src="https://via.placeholder.com/800x600" alt="Posts News" className="w-20 h-20 rounded-lg transition-transform duration-300 ease-in-out hover:scale-110 object-cover cursor-pointer" />
             <div className="text-[10px]">
               <p className="text-gray-400 italic">
                 {" "}
@@ -118,7 +118,7 @@ const BreakingNews = () => {
         </div>
         <div className="md:grid-cols-3 lg:grid-cols-3 grid-rows-1 gap-5 rounded-lg shadow-xl">
           <div className="flex items-center gap-2 rounded-lg shadow-sm p-4 overflow-hidden w-92 h-92">
-            <img src="https://via.placeholder.com/800x600" alt="Posts News" className="w-20 h-20 rounded-lg transition-transform duration-300 ease-in-out hover:scale-110 object-cover" />
+            <img src="https://via.placeholder.com/800x600" alt="Posts News" className="w-20 h-20 rounded-lg transition-transform duration-300 ease-in-out hover:scale-110 object-cover cursor-pointer" />
             <div className="text-[10px]">
               <p className="text-gray-400 italic">
                 {" "}
