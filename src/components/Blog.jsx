@@ -99,14 +99,14 @@ function Blog() {
       title: "Test Title 9",
       description: "You can customize the view Blog post with author simple mouse click and immediately see the result of your changes",
     },
-    {
-      id: 12,
-      image: Gg,
-      author: "ANOTHER COMPANY",
-      date: "07 Dec 2025",
-      title: "Test Title 9",
-      description: "You can customize the view Blog post with author simple mouse click and immediately see the result of your changes",
-    },
+    // {
+    //   id: 12,
+    //   image: Gg,
+    //   author: "ANOTHER COMPANY",
+    //   date: "07 Dec 2025",
+    //   title: "Test Title 9",
+    //   description: "You can customize the view Blog post with author simple mouse click and immediately see the result of your changes",
+    // },
   ];
 
   const itemsPerPage = 6; // จำนวนที่จะแสดงในแต่ละหน้า
