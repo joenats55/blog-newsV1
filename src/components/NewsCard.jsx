@@ -39,7 +39,7 @@ const NewsCard = () => {
           <img
             src={news.image}
             alt={news.title}
-            className="w-full h-60 object-cover"
+            className="w-full h-60 object-cover cursor-pointer"
           />
 
           {/* ชั้นข้อความ */}
