@@ -62,7 +62,7 @@ const BreakingNews = () => {
     <div>
       {/* หัวข้อ BreakingNews */}
       <div className="bg-[#007AFF] text-white py-2 px-4 text-lg font-bold rounded-lg w-40 mb-4 shadow-lg sm:text-sm">
-        <p>Breaking News</p>
+        <p>News</p>
       </div>
 
       {/* เนื้อหา BreakingNews */}

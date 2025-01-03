@@ -123,7 +123,7 @@ function Blog() {
   return (
     <div className="bg-white min-h-screen relative top-8">
       <header className="bg-[#007AFF] text-white py-2 px-4 text-lg font-bold rounded-lg w-40 mb-4 shadow-lg sm:text-sm">
-        Blog
+        Blogs
       </header>
 
       <div className="container mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -132,12 +132,12 @@ function Blog() {
           {currentCards.map((card) => (
             <div
               key={card.id}
-              className="bg-white shadow-md rounded-lg overflow-hidden flex flex-col h-[350px] overflow-y-auto"
+              className="bg-white shadow-md rounded-lg overflow-hidden flex flex-col h-[350px] overflow-y-auto cursor-pointer"
             >
               <img
                 src={card.image}
                 alt={card.title}
-                className="w-full h-48 object-cover overflow-hidden transition-transform duration-300 ease-in-out hover:scale-110 "
+                className="w-full h-48 object-cover overflow-hidden transition-transform duration-300 ease-in-out hover:scale-110 cursor-pointer"
               />
               <div className="p-4 flex-grow">
                 <p className="text-gray-400 text-[10px] mb-1">
@@ -203,7 +203,7 @@ function Blog() {
                   <img
                     src="https://via.placeholder.com/800x600"
                     alt="Related Post"
-                    className="w-12 h-12 object-cover rounded-md mr-4 transition-transform duration-300 ease-in-out hover:scale-110"
+                    className="w-12 h-12 object-cover rounded-md mr-4 transition-transform duration-300 ease-in-out hover:scale-110 cursor-pointer"
                   />
                   <div className="text-sm sm:text-xs">
                     <a href="#">
